@@ -1,0 +1,15 @@
+name: Github Actions demo
+on:
+  push:
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Display event name
+        run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+      
+      - name: Run Python script
+        run: python main.py
