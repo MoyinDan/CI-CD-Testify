@@ -3,7 +3,7 @@ on: [ push ]
 jobs: 
   Test:
   runs-on: ubuntu-latest
-     Steps:
+  steps:
      - uses: actions/checkout@v2
      - runs: echo "The job was automatically triggered by a ${{ github.event_name }} event."
      - runs: python main.py
