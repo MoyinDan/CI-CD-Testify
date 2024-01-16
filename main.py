@@ -1,5 +1,5 @@
+# main.py
+def addition(a, b):
+    return a + b
 
 print("Hello World")
-
-#There should be no spacing after the word print
-
