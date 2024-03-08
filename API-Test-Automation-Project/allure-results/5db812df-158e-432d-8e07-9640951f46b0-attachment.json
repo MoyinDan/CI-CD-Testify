@@ -1,0 +1,21 @@
+{
+    "Date": "Fri, 08 Mar 2024 11:29:40 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-Ray": "86127d21797b6645-AMS",
+    "CF-Cache-Status": "DYNAMIC",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "no-cache, no-store, private",
+    "access-control-allow-credentials": "true",
+    "access-control-allow-headers": "*",
+    "access-control-allow-methods": "PUT, POST, GET, DELETE, PATCH, OPTIONS",
+    "cf-apo-via": "origin,host",
+    "sib-request-id": "e28a6e43-93cc-927e-8836-388b7046747f",
+    "x-content-type-options": "nosniff",
+    "x-envoy-upstream-service-time": "251",
+    "x-sib-server": "BREVO-srv-pr-online-rancher-worker-7",
+    "x-xss-protection": "1",
+    "Vary": "Accept-Encoding",
+    "Server": "cloudflare"
+}

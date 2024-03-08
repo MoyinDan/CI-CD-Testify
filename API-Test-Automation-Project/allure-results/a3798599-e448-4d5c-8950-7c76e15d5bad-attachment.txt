@@ -1,0 +1,34 @@
+[
+  {
+    "internalName": "name",
+    "label": "Company Name",
+    "attributeTypeName": "text",
+    "attributeOptions": [
+      {
+        "key": "custom key",
+        "value": "custom label"
+      },
+      {
+        "key": "custom key",
+        "value": "custom label"
+      }
+    ],
+    "isRequired": true
+  },
+  {
+    "internalName": "name",
+    "label": "Company Name",
+    "attributeTypeName": "text",
+    "attributeOptions": [
+      {
+        "key": "custom key",
+        "value": "custom label"
+      },
+      {
+        "key": "custom key",
+        "value": "custom label"
+      }
+    ],
+    "isRequired": true
+  }
+]

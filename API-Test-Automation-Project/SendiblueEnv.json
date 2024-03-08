@@ -1,0 +1,32 @@
+{
+	"id": "14590ca7-b31c-44e2-a25d-ce583b1c208d",
+	"name": "Sendiblue",
+	"values": [
+		{
+			"key": "api-key",
+			"value": "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",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userid",
+			"value": "{{email}}",
+			"enabled": true
+		},
+		{
+			"key": "variable_key",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "randomEmail",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-03-08T10:11:44.971Z",
+	"_postman_exported_using": "Postman/10.23.11"
+}

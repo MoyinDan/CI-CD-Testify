@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sendinblue" tests="157" time="68.515">
+  <testsuite name="Sales CRM / Companies / Get all Companies" id="f5b842b9-def6-4f55-b9a0-dc752037bcec" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="2.801">
+    <testcase name="Body matches string" time="2.801" classname="Sendinblue"/>
+    <testcase name="Response time is less than 2000ms" time="2.801" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="2.801" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Create a company" id="5372b6b8-44e9-4c80-a00d-3ff379b9e6d7" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.348">
+    <testcase name="Successful POST request" time="0.348" classname="Sendinblue"/>
+    <testcase name="Response time is less than 1000ms" time="0.348" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get company attributes" id="ea41ddb3-380c-4a2e-9215-04ee5b894115" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.909">
+    <testcase name="Content-Type is present" time="0.909" classname="Sendinblue"/>
+    <testcase name="Content-Length is present" time="0.909" classname="Sendinblue"/>
+    <testcase name="Error Message Value Test" time="0.909" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Link and Unlink company with contact and deal" id="4d8da715-30aa-4984-94ea-3c84b3df8ff4" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.277">
+    <testcase name="Date is present" time="0.277" classname="Sendinblue"/>
+    <testcase name="Response time is less than 1000ms" time="0.277" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get a company" id="c4c2b485-c1e6-4d71-8622-cc91b3dc986a" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.291">
+    <testcase name="Response size is less than 100 B" time="0.291" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.291" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.291" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Delete a company" id="2b440988-db2a-46bc-b387-ee37820d96bb" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.278">
+    <testcase name="Response time is less than 1000ms" time="0.278" classname="Sendinblue"/>
+    <testcase name="Server is present" time="0.278" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.278" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Update a company" id="bbd98bf6-48be-4b18-89c4-07601c26c062" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.688">
+    <testcase name="json Response" time="0.688" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.688" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get pipeline stages" id="d9788fac-2f2f-4a56-a7f5-f24614610581" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.933">
+    <testcase name="Response time is less than 1000ms" time="0.933" classname="Sendinblue"/>
+    <testcase name="CF-Ray is present" time="0.933" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / https://api.sendinblue.com/v3/companies/:id" id="a1086d60-371a-4d38-918e-d03bf9a134ad" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.258">
+    <testcase name="Your test name" time="0.258" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.258" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get all deals" id="3d98d0f5-9b5d-499c-aedd-77be230046ec" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.298">
+    <testcase name="Response time is less than 10000ms" time="0.298" classname="Sendinblue"/>
+    <testcase name="message Response" time="0.298" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.298" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Create a deal" id="63dccda6-9937-4bb8-b9fc-41c7fc079bce" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.259">
+    <testcase name="Body matches string" time="0.259" classname="Sendinblue"/>
+    <testcase name="CF-Cache-Status is present" time="0.259" classname="Sendinblue"/>
+    <testcase name="Response size is less than 2000 B" time="0.259" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Link and Unlink a deal with contacts and companies" id="178b75c6-4574-4c0e-8cb2-a8f2eb2c4581" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.277">
+    <testcase name="Body matches string" time="0.277" classname="Sendinblue"/>
+    <testcase name="CF-Ray is present" time="0.277" classname="Sendinblue"/>
+    <testcase name="Response size is less than 200 B" time="0.277" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get deal attributes" id="1c7a9a14-e239-40a8-b2ce-23d14e07a3c0" timestamp="2024-03-08T11:00:43.369Z" tests="6" failures="0" errors="0" time="0.806">
+    <testcase name="Response Body" time="0.806" classname="Sendinblue"/>
+    <testcase name="Status code name has string" time="0.806" classname="Sendinblue"/>
+    <testcase name="Error Type Test" time="0.806" classname="Sendinblue"/>
+    <testcase name="Error Title Test" time="0.806" classname="Sendinblue"/>
+    <testcase name="Error Status Test" time="0.806" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.806" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get a deal" id="10047d9c-8526-4a5f-abe9-fa5dbca1232e" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.285">
+    <testcase name="Vary is present" time="0.285" classname="Sendinblue"/>
+    <testcase name="Body matches string" time="0.285" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Delete a deal" id="66baa585-a3ea-4aaf-9550-a924e18c6d27" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.245">
+    <testcase name="Response time is less than 2000ms" time="0.245" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.245" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Update a deal" id="e15073f6-984a-4b90-842e-608674887f3b" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.317">
+    <testcase name="sib-request-id is present" time="0.317" classname="Sendinblue"/>
+    <testcase name="Response time is less than 1000ms" time="0.317" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get all tasks" id="ac7f30ef-ab44-488e-93ec-24953e34dc24" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.600">
+    <testcase name="Body matches string" time="0.600" classname="Sendinblue"/>
+    <testcase name="Response time is less than 2000ms" time="0.600" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.600" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="0.600" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Create a task" id="44dc42c3-53e8-46ad-89f0-e91567b20f12" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="1.573">
+    <testcase name="Response Body Structure Test" time="1.573" classname="Sendinblue"/>
+    <testcase name="Error Message Content Test" time="1.573" classname="Sendinblue"/>
+    <testcase name="Error Field Validation Test" time="1.573" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get all task types" id="9c4c5a62-985a-4c24-a37f-c865fa3ef958" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="1.070">
+    <testcase name="Array Length Test" time="1.070" classname="Sendinblue"/>
+    <testcase name="Object Structure Test" time="1.070" classname="Sendinblue"/>
+    <testcase name="Object Content Test" time="1.070" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get a task" id="6f3e169f-ca5f-4713-87cc-c3628f14a7db" timestamp="2024-03-08T11:00:43.369Z" tests="5" failures="0" errors="0" time="0.522">
+    <testcase name="Transfer-Encoding is present" time="0.522" classname="Sendinblue"/>
+    <testcase name="Error Message Content Test" time="0.522" classname="Sendinblue"/>
+    <testcase name="Error Message Length Test" time="0.522" classname="Sendinblue"/>
+    <testcase name="Error Message Format Test" time="0.522" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.522" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Delete a task" id="ddd34c77-064e-4c36-ba46-ef9da16f7f24" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.533">
+    <testcase name="Error Message Value Test" time="0.533" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.533" classname="Sendinblue"/>
+    <testcase name="CF-RAY is present" time="0.533" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Update a task" id="20312143-30dd-4196-997b-3098ee571e8a" timestamp="2024-03-08T11:00:43.369Z" tests="5" failures="0" errors="0" time="0.735">
+    <testcase name="Error Message Content Test" time="0.735" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="0.735" classname="Sendinblue"/>
+    <testcase name="Error Message Value Test" time="0.735" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.735" classname="Sendinblue"/>
+    <testcase name="Error Message Length Test" time="0.735" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Get all notes" id="b6d3a453-39b3-4869-94b4-d7d04a079f35" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.245">
+    <testcase name="Error Message Content Test" time="0.245" classname="Sendinblue"/>
+    <testcase name="Error Message Format Test" time="0.245" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="0.245" classname="Sendinblue"/>
+    <testcase name="CF-Cache-Status is present" time="0.245" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Create a note" id="734750ed-57fb-4321-8984-19d37142e8f4" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.293">
+    <testcase name="Error Message Value Test" time="0.293" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="0.293" classname="Sendinblue"/>
+    <testcase name="Server is present" time="0.293" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Get a note" id="015c8464-c907-4c48-b1a5-260f640ac439" timestamp="2024-03-08T11:00:43.369Z" tests="5" failures="0" errors="0" time="0.278">
+    <testcase name="Error Message Content Test" time="0.278" classname="Sendinblue"/>
+    <testcase name="Error Message Length Test" time="0.278" classname="Sendinblue"/>
+    <testcase name="Error Message Format Test" time="0.278" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.278" classname="Sendinblue"/>
+    <testcase name="Error Message HTTP Status Test" time="0.278" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Update a note" id="0c9e064a-51ba-48a5-b0bb-538badf6f435" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.234">
+    <testcase name="Error Message Length Test" time="0.234" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.234" classname="Sendinblue"/>
+    <testcase name="Error Message HTTP Status Test" time="0.234" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Delete a note" id="e9bb7081-3279-4728-a653-b63f6875eee4" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.245">
+    <testcase name="Error Message Format Test" time="0.245" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.245" classname="Sendinblue"/>
+    <testcase name="Error Message Type Test" time="0.245" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Get all files" id="af65b900-4da2-4327-b3bf-aa724473b742" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.251">
+    <testcase name="Error Message Format Test" time="0.251" classname="Sendinblue"/>
+    <testcase name="Error Message Content Test" time="0.251" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.251" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Upload a file" id="125c0720-70cd-4ef0-913a-9860bd4cd442" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.296">
+    <testcase name="Body matches string" time="0.296" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.296" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Download a file" id="9056fc0c-2953-48cb-a8a8-5ad4f4149718" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.261">
+    <testcase name="Vary is present" time="0.261" classname="Sendinblue"/>
+    <testcase name="Response time is less than 5000ms" time="0.261" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Delete a file" id="e717358f-1606-42d5-9f0a-9bf9dcd7aaea" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.209">
+    <testcase name="Error Message Length Test" time="0.209" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.209" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Get file details" id="c7845740-8f4b-4ee0-ae57-3ac91b646e63" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.242">
+    <testcase name="Date is present" time="0.242" classname="Sendinblue"/>
+    <testcase name="Error Message Length Test" time="0.242" classname="Sendinblue"/>
+    <testcase name="Error Message Presence Test" time="0.242" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Get an email campaign report" id="958fa244-7aa4-4987-ae2e-342f9f203ee8" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.264">
+    <testcase name="Code Presence Test" time="0.264" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.264" classname="Sendinblue"/>
+    <testcase name="Message Presence Test" time="0.264" classname="Sendinblue"/>
+    <testcase name="Message Content Test" time="0.264" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign" id="db822a69-d1d4-4c3e-b0be-f311c2d07029" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.604">
+    <testcase name="Code Presence Test" time="0.604" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.604" classname="Sendinblue"/>
+    <testcase name="Message Presence Test" time="0.604" classname="Sendinblue"/>
+    <testcase name="Message Content Test" time="0.604" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Delete an email campaign" id="d6791157-2ceb-4440-bb64-e4b4e3b098cf" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.275">
+    <testcase name="Code Presence Test" time="0.275" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.275" classname="Sendinblue"/>
+    <testcase name="Message Content Test" time="0.275" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign immediately, based on campaignId" id="da144935-5770-4f58-92fb-26d04fc3ab31" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.204">
+    <testcase name="Code Presence Test" time="0.204" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.204" classname="Sendinblue"/>
+    <testcase name="Message Content Test" time="0.204" classname="Sendinblue"/>
+    <testcase name="Message Presence Test" time="0.204" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign to your test list" id="d344e812-d1cc-449d-a396-128b5d0933e7" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.226">
+    <testcase name="Content-Type is present" time="0.226" classname="Sendinblue"/>
+    <testcase name="Code Presence Test" time="0.226" classname="Sendinblue"/>
+    <testcase name="Code Value Test" time="0.226" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.226" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign status" id="f85cff0b-45ce-46dd-bddc-f422513524e4" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.255">
+    <testcase name="Code Field Length Test" time="0.255" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.255" classname="Sendinblue"/>
+    <testcase name="Message Field Length Test" time="0.255" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Send the report of a campaign" id="881a949f-7d18-49bf-818b-1cbbe2a8aecc" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.284">
+    <testcase name="Response Body Structure Test" time="0.284" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.284" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Get an A/B test email campaign results" id="b5caecea-ccb7-4d7d-86c9-5183bde78742" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.252">
+    <testcase name="Code Field Length Test" time="0.252" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.252" classname="Sendinblue"/>
+    <testcase name="Message Field Length Test" time="0.252" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Get a shared template url" id="e85ce920-ccab-4f55-a7bf-ea8263ee6c71" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.218">
+    <testcase name="Server is present" time="0.218" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.218" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Export the recipients of an email campaign" id="71276aa9-ca74-457f-a0c4-83ca215db5dd" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.250">
+    <testcase name="Code Presence Test" time="0.250" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.250" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Return all your created email campaigns" id="c721f990-b3d4-4d37-8d8a-203e7c7683c6" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.214">
+    <testcase name="Response Body Structure Test" time="0.214" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.214" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Create an email campaign" id="9c5fca46-52d6-4f72-a14c-4daee44e4a08" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.249">
+    <testcase name="Response Body Type Test" time="0.249" classname="Sendinblue"/>
+    <testcase name="Response Body Object Test" time="0.249" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Upload an image to your account's image gallery" id="d5b5f1db-ab3f-4c6f-b1db-91f6d1a77aa0" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.392">
+    <testcase name="Response Body Object Test" time="0.392" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.392" classname="Sendinblue"/>
+    <testcase name="Code Field Length Test" time="0.392" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.392" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Returns the information for all your created SMS campaigns" id="61682101-2177-4237-8e1b-6abf708b26ef" timestamp="2024-03-08T11:00:43.369Z" tests="5" failures="0" errors="0" time="0.246">
+    <testcase name="Content-Type is present" time="0.246" classname="Sendinblue"/>
+    <testcase name="Response Body Object Test" time="0.246" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.246" classname="Sendinblue"/>
+    <testcase name="Code Field Length Test" time="0.246" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.246" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Creates an SMS campaign" id="c5b8f334-deb1-429b-a2e2-dc672fed62fd" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="1.789">
+    <testcase name="Code Field Presence Test" time="1.789" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="1.789" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Get an SMS campaign" id="208f153c-d230-4881-84cf-67fc6874be77" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.221">
+    <testcase name="Response Body Type Test" time="0.221" classname="Sendinblue"/>
+    <testcase name="Code Field Length Test" time="0.221" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.221" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Update an SMS campaign" id="19d6ca07-81fb-493b-bc29-1bba45ae35d4" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.219">
+    <testcase name="Response time is less than 10000ms" time="0.219" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.219" classname="Sendinblue"/>
+    <testcase name="Code Field Length Test" time="0.219" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.219" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Delete an SMS campaign" id="e527384b-c59e-407c-80a0-caaa26af1264" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.404">
+    <testcase name="Response size is less than 10000ms" time="0.404" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="0.404" classname="Sendinblue"/>
+    <testcase name="Code Field Length Test" time="0.404" classname="Sendinblue"/>
+    <testcase name="Response Body Structure Test" time="0.404" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Send your SMS campaign immediately" id="463ff17a-8c05-47f8-a9c8-61f9156929df" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.288">
+    <testcase name="Code Field Presence Test" time="0.288" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.288" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="0.288" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Update a campaign's status" id="51119074-b94c-41e3-a0a9-d46a0e838332" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.667">
+    <testcase name="Code Field Presence Test" time="0.667" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.667" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="0.667" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Send a test SMS campaign" id="a95dfcf9-5a3e-401b-9b2d-f5ced48a47e2" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.229">
+    <testcase name="Code Field Presence Test" time="0.229" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.229" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="0.229" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Export an SMS campaign's recipients" id="dad46f89-2693-4330-b683-1414457bbc71" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.229">
+    <testcase name="Code Field Presence Test" time="0.229" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.229" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="0.229" classname="Sendinblue"/>
+    <testcase name="Successful POST request" time="0.229" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Send an SMS campaign's report" id="a67c2036-f4c3-49b6-9c9a-8f1254d9c2ff" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.246">
+    <testcase name="Successful POST request" time="0.246" classname="Sendinblue"/>
+    <testcase name="Code Field Presence Test" time="0.246" classname="Sendinblue"/>
+    <testcase name="Connection is present" time="0.246" classname="Sendinblue"/>
+    <testcase name="Response Body Content Type Test" time="0.246" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Send a message as an agent" id="d43dce22-b9c6-495f-9810-a468a7bef457" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.362">
+    <testcase name="Content-Type is present" time="0.362" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.362" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.362" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Get a message" id="8d77c38b-b03b-4cec-9fb6-3f9aab182fe0" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.344">
+    <testcase name="Check response message in body" time="0.344" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.344" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Update a message sent by an agent" id="d6ef7ff3-ca3a-40eb-89b2-3650f98997ac" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.500">
+    <testcase name="Check response message in body" time="0.500" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.500" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Delete a message sent by an agent" id="eb7c9088-3355-447f-b372-9a14db648ccc" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.436">
+    <testcase name="Check response message in body" time="0.436" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.436" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Status / Sets agent’s status to online for 2-3 minutes" id="6a877a03-3956-4ea1-a215-d31e9df7eb07" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.326">
+    <testcase name="Content-Type is present" time="0.326" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.326" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.326" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Send an automated message to a visitor" id="b58785ae-2124-4898-a23b-d04ea75d99fb" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.323">
+    <testcase name="Server is present" time="0.323" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.323" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.323" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Get an automated message" id="f94695d4-73aa-4487-8ec4-7b52b597c02f" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.353">
+    <testcase name="Server is present" time="0.353" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.353" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.353" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Update an automated message" id="332ad4af-1db0-41b8-b25e-1bd5d824ef9e" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.281">
+    <testcase name="Server is present" time="0.281" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.281" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.281" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Delete an automated message" id="0aeacb2a-d3f5-4329-9f73-455a6ff99311" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.298">
+    <testcase name="Server is present" time="0.298" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="0.298" classname="Sendinblue"/>
+    <testcase name="Check response message in body" time="0.298" classname="Sendinblue"/>
+    <testcase name="Check response code in body" time="0.298" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Get all the contacts" id="d4e62238-4c63-4e78-a1ed-cf88553c538c" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.276">
+    <testcase name="Contacts Array Test" time="0.276" classname="Sendinblue"/>
+    <testcase name="Emails Presence Test" time="0.276" classname="Sendinblue"/>
+    <testcase name="IDs Presence Test" time="0.276" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create a contact" id="3de5c851-e63a-4fce-9c84-a0cc93ee1ae6" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.466">
+    <testcase name="Successful POST request" time="0.466" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="0.466" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow" id="fc37b960-8cf5-4c1c-b4ed-f7f18da0767b" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.269">
+    <testcase name="Body matches string" time="0.269" classname="Sendinblue"/>
+    <testcase name="Code Field Presence Test" time="0.269" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.269" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update multiple contacts" id="0763a604-9ded-4543-873f-08c811622502" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.310">
+    <testcase name="Body matches string" time="0.310" classname="Sendinblue"/>
+    <testcase name="Code Field Presence Test" time="0.310" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.310" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Export contacts" id="5402f540-0d4b-4cbc-9467-20fdc74bd992" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.684">
+    <testcase name="Code Field Presence Test" time="0.684" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.684" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="0.684" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Import contacts" id="c6f52769-bfa9-46ea-8461-aee060c066d0" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.339">
+    <testcase name="Code Field Value Test" time="0.339" classname="Sendinblue"/>
+    <testcase name="Message Field Value Test" time="0.339" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Get a contact's details" id="20299356-1c3b-47d8-b7d2-4be91aedbc11" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.350">
+    <testcase name="Body matches string" time="0.350" classname="Sendinblue"/>
+    <testcase name="Code Field Presence Test" time="0.350" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.350" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Delete a contact" id="03d9de15-8337-4de9-a91c-f472ae8a464e" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.372">
+    <testcase name="Code Field Value Test" time="0.372" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.372" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update a contact" id="f07feeae-bfec-43dd-abac-31996b5ddce5" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.351">
+    <testcase name="Body matches string" time="0.351" classname="Sendinblue"/>
+    <testcase name="Code Field Presence Test" time="0.351" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.351" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Get email campaigns' statistics for a contact" id="f8c2669d-1b50-4448-ab35-5f88551df961" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.265">
+    <testcase name="Response Body Content Type Test" time="0.265" classname="Sendinblue"/>
+    <testcase name="Response Body Object Test" time="0.265" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Get all folders" id="6f815cd9-db1e-4e82-bc34-adcf42869d36" timestamp="2024-03-08T11:00:43.369Z" tests="4" failures="0" errors="0" time="0.316">
+    <testcase name="Contacts Array Test" time="0.316" classname="Sendinblue"/>
+    <testcase name="Names Presence Test" time="0.316" classname="Sendinblue"/>
+    <testcase name="Folder IDs Test" time="0.316" classname="Sendinblue"/>
+    <testcase name="Subscribers Type Test" time="0.316" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Create a folder" id="e572dc88-d27c-480b-8890-825970ba2692" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.240">
+    <testcase name="sib-request-id is present" time="0.240" classname="Sendinblue"/>
+    <testcase name="Presence of 'id' Test" time="0.240" classname="Sendinblue"/>
+    <testcase name="Type of 'id' Test" time="0.240" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Returns a folder's details" id="9a294d7f-2707-4175-ad65-b99cfdbbfb36" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.420">
+    <testcase name="Code Field Presence Test" time="0.420" classname="Sendinblue"/>
+    <testcase name="Message Field Presence Test" time="0.420" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Update a folder" id="d7f5b8be-34f1-4e75-be38-80543f1ccfcc" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.306">
+    <testcase name="Code Field Value Test" time="0.306" classname="Sendinblue"/>
+    <testcase name="Message Field Value Test" time="0.306" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Delete a folder (and all its lists)" id="cb603f3a-fede-42a2-98ee-f3821bd22f4a" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.499">
+    <testcase name="Response Body Content Type Test" time="0.499" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="0.499" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Get lists in a folder" id="c9b25627-8f28-47d0-9471-4c92be1525d2" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="1.186">
+    <testcase name="Response Body Content Type Test" time="1.186" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="1.186" classname="Sendinblue"/>
+    <testcase name="Response Body Type Test" time="1.186" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get all the lists" id="24d7ab9d-15a7-4b94-8aa5-af2e8d2e7f8e" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.288">
+    <testcase name="lists Array Test" time="0.288" classname="Sendinblue"/>
+    <testcase name="Folder IDs Test" time="0.288" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Create a list" id="c1b96606-c9c1-4b62-893f-f17e84ada11a" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.314"/>
+  <testsuite name="Contact management / Lists / Get contacts in a list" id="22c375fa-1823-4fc7-bb1b-38e38e416065" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.262">
+    <testcase name="Code Presence Test" time="0.262" classname="Sendinblue"/>
+    <testcase name="Code Type Test" time="0.262" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Add existing contacts to a list" id="922e1211-b662-44be-94b2-ca7c7f572fa6" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.222">
+    <testcase name="Content-Type is present" time="0.222" classname="Sendinblue"/>
+    <testcase name="Message Presence Test" time="0.222" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Delete a contact from a list" id="f8610b61-34bc-4f64-9b34-a48ab420ba34" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.440">
+    <testcase name="Content-Type is present" time="0.440" classname="Sendinblue"/>
+    <testcase name="Message Presence Test" time="0.440" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get a list's details" id="f23f231d-eb0e-4ecc-8eed-9cd82676d89f" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.426">
+    <testcase name="Message Type Test" time="0.426" classname="Sendinblue"/>
+    <testcase name="Message Content Test" time="0.426" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Update a list" id="cd73ebc9-f123-427e-9cf5-e37d9c0f4231" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.350">
+    <testcase name="Presence of 'code' Test" time="0.350" classname="Sendinblue"/>
+    <testcase name="Type of 'code' Test" time="0.350" classname="Sendinblue"/>
+    <testcase name="Message Value Test" time="0.350" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Delete a list" id="1d887426-2d39-4fd8-81ac-2e379d417218" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.330">
+    <testcase name="Message Value Test" time="0.330" classname="Sendinblue"/>
+    <testcase name="Code Value Test" time="0.330" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / List all attributes" id="69fe0a56-46f9-47d6-bf6c-bbd7e160a10f" timestamp="2024-03-08T11:00:43.369Z" tests="5" failures="0" errors="0" time="0.521">
+    <testcase name="Presence of Name Test" time="0.521" classname="Sendinblue"/>
+    <testcase name="Presence of Category Test" time="0.521" classname="Sendinblue"/>
+    <testcase name="Presence of Type Test" time="0.521" classname="Sendinblue"/>
+    <testcase name="Attributes Count Test" time="0.521" classname="Sendinblue"/>
+    <testcase name="Field Key Test" time="0.521" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Update contact attribute" id="7aa52a4a-8e50-4991-9c12-74e456d27cd4" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.530">
+    <testcase name="Content-Length is present" time="0.530" classname="Sendinblue"/>
+    <testcase name="Code Value Test" time="0.530" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Create contact attribute" id="a79accc7-3191-4888-beef-6daa4b431ea5" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.250">
+    <testcase name="Content-Type is present" time="0.250" classname="Sendinblue"/>
+    <testcase name="Code Value Test" time="0.250" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Delete an attribute" id="4ac6fdf0-25dd-47b0-a6bf-a21be62ea222" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.275">
+    <testcase name="Message Value Test" time="0.275" classname="Sendinblue"/>
+    <testcase name="Type of 'code' Test" time="0.275" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Send a transactional email" id="b3f08eaa-b124-4557-a780-f123517aaa85" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="1.947">
+    <testcase name="Presence Test for 'messageId' Field" time="1.947" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="1.947" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Get the list of transactional emails on the basis of allowed filters" id="45e93692-a62a-4557-a57a-e08e66535df5" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="1.480">
+    <testcase name="Presence of 'code' Test" time="1.480" classname="Sendinblue"/>
+    <testcase name="Type of 'code' Test" time="1.480" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Delete scheduled emails by batchId or messageId" id="2eeb0de7-3824-4d88-8512-3799e5307453" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.337">
+    <testcase name="Presence of 'message' Test" time="0.337" classname="Sendinblue"/>
+    <testcase name="Type of 'message' Test" time="0.337" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Get the personalized content of a sent transactional email" id="60afebe7-f577-4b5e-b721-a2f4d2e0f12a" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.600">
+    <testcase name="Code Value Test" time="0.600" classname="Sendinblue"/>
+    <testcase name="Message Value Test" time="0.600" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Fetch scheduled emails by batchId or messageId" id="29737d7d-198a-45db-86f6-9dc220d93163" timestamp="2024-03-08T11:00:43.369Z" tests="3" failures="0" errors="0" time="0.485">
+    <testcase name="Code Value Test" time="0.485" classname="Sendinblue"/>
+    <testcase name="Message Value Test" time="0.485" classname="Sendinblue"/>
+    <testcase name="Content-Type is present" time="0.485" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Get the list of email templates" id="519c1b23-2139-4403-a8c1-2483906dbadc" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.247">
+    <testcase name="Content-Type is present" time="0.247" classname="Sendinblue"/>
+    <testcase name="Response time is less than 2000ms" time="0.247" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Create an email template" id="c336a0eb-5220-4bf3-b2a1-9c24910934a1" timestamp="2024-03-08T11:00:43.369Z" tests="2" failures="0" errors="0" time="0.326">
+    <testcase name="Code Value Test" time="0.326" classname="Sendinblue"/>
+    <testcase name="Message Value Test" time="0.326" classname="Sendinblue"/>
+  </testsuite>
+  <testsuite name="Transactional / Templates / Returns the template information" id="41cf2aa5-8c66-4393-819a-15f375424feb" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.327"/>
+  <testsuite name="Transactional / Templates / Update an email template" id="f0065f2e-e439-414a-8022-ca94c0ad774b" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.326"/>
+  <testsuite name="Transactional / Templates / Delete an inactive email template" id="714adc14-0d2c-409f-bfdb-00dc6152ecea" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.334"/>
+  <testsuite name="Transactional / Templates / Send a template to your test list" id="765d655c-5e86-438b-8e5a-1061162f69a4" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.334"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated over a period of time" id="b297f769-5396-4a6d-beb9-3e8c79c344e5" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.312"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated per day" id="185eb2eb-dbe9-4801-85b8-661e435682b9" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.228"/>
+  <testsuite name="Transactional / Statistics / Get all your transactional email activity (unaggregated events)" id="0de1face-0165-4717-b19b-64c42b32c6cb" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.375"/>
+  <testsuite name="Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts" id="ad4e168c-f5d7-433e-b066-5d3ab1040834" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.370"/>
+  <testsuite name="Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact" id="e93dc58f-4993-4aa1-b0b8-d7072e7da4ea" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.234"/>
+  <testsuite name="Transactional / Blocked Domains / Get the list of blocked domains" id="54923b98-4285-44f4-8f38-5529ac5edff2" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.246"/>
+  <testsuite name="Transactional / Blocked Domains / Add a new domain to the list of blocked domains" id="ca4a8393-19aa-4849-a896-7f2594322efe" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.202"/>
+  <testsuite name="Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains" id="a75eadfd-9330-4960-bc4b-a5fd6653829b" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.206"/>
+  <testsuite name="Transactional / Logs / Delete hardbounces" id="ab12e620-a966-4214-9b34-65f443cb9ffb" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.243"/>
+  <testsuite name="Transactional / Logs / Delete an SMTP transactional log" id="0442ebd1-acdb-42e5-8e6a-78d3ccd8b161" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.254"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Get the list of all the events for the received emails." id="e4b25baf-7219-46c7-974e-ff80c80fc858" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.239"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Fetch all events history for one particular received email." id="383f55cd-ad14-4fe8-9b6f-d100f6ea2b60" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.296"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Retrieve inbound attachment with download token." id="7b29ef5e-9498-470e-9ad3-90b1db18f18a" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.255"/>
+  <testsuite name="Transactional / Transactional SMS / Send SMS message to a mobile number" id="51731aaf-b28b-4a1b-a4cc-9c67f76d6d48" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.235"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated over a period of time" id="844564ab-9798-4d1e-b808-55e659e13a3f" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.255"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated per day" id="3508dc15-8233-4acc-af29-6c6d7409d032" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.241"/>
+  <testsuite name="Transactional / SMS statistics / Get all your SMS activity (unaggregated events)" id="16892b3a-85ea-48cc-9950-fb377218ebb8" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.357"/>
+  <testsuite name="Account / Webhooks / Get all webhooks" id="21cc008a-dfb1-4657-a64e-0c051e8d87f6" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.373"/>
+  <testsuite name="Account / Webhooks / Create a webhook" id="630d2657-caf7-4168-818a-afadc9d86ec7" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.499"/>
+  <testsuite name="Account / Webhooks / Get a webhook details" id="4b092ab4-2897-431d-b51c-8e400d8e79ef" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.486"/>
+  <testsuite name="Account / Webhooks / Update a webhook" id="fbd24f09-1a10-4200-840d-95f1ddfa0deb" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.337"/>
+  <testsuite name="Account / Webhooks / Delete a webhook" id="ef2a452b-c0d7-44af-a3df-2131169997ae" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.437"/>
+  <testsuite name="Account / Reseller / Credits / Add Email and/or SMS credits to a specific child account" id="a2a9eac2-de0e-4aba-8ad2-ba2eed83044f" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.227"/>
+  <testsuite name="Account / Reseller / Credits / Remove Email and/or SMS credits from a specific child account" id="9043e580-d1fb-432a-aadd-014f7b12d121" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.230"/>
+  <testsuite name="Account / Reseller / IP management / Associate a dedicated IP to the child" id="1a4188c6-cb28-4162-8d73-2d832846de1a" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.201"/>
+  <testsuite name="Account / Reseller / IP management / Dissociate a dedicated IP to the child" id="76bf7ed0-f364-4539-8062-01689281e7f1" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.243"/>
+  <testsuite name="Account / Reseller / Domains / Get all sender domains for a specific child account" id="3f16c101-3c2f-4eee-9de2-21d108d69f9c" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.290"/>
+  <testsuite name="Account / Reseller / Domains / Create a domain for a child account" id="9984bc19-f85b-42ae-b044-1d1bf3304e67" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.295"/>
+  <testsuite name="Account / Reseller / Domains / Update the sender domain of reseller's child based on the childIdentifier and domainName passed" id="47911a34-3e91-4442-954f-23fda970c18a" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.424"/>
+  <testsuite name="Account / Reseller / Domains / Delete the sender domain of the reseller child based on the childIdentifier and domainName passed" id="ea4e1bfd-fffd-4c58-852d-a2aa85c1c2a2" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.211"/>
+  <testsuite name="Account / Reseller / Child accounts / Get a child account's details" id="9ea32561-98e0-4916-a5d1-dc1f4b42b919" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.248"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child based on the child identifier supplied" id="3484ba47-68fd-4fba-a60d-3f2566ddd159" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.305"/>
+  <testsuite name="Account / Reseller / Child accounts / Delete a single reseller child based on the child identifier supplied" id="4dbc2d20-bcc2-4840-8d49-46db97e4bb8e" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.237"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child account status based on the identifier supplied" id="4a356743-7fbf-46e9-9557-6aa0f2312143" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.213"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the status of a reseller's child account creation, whether it is successfully created (exists) or not based on the childIdentifier supplied" id="1bef8a35-1589-40a9-98f9-f2f45ae93192" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.269"/>
+  <testsuite name="Account / Reseller / Child accounts / Get session token to access Sendinblue (SSO)" id="512f9dcd-d9e3-4307-a2f7-d3f1d91f5cfd" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.264"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the list of all children accounts" id="8accf7bd-aa11-4b08-a2e1-015b537b416b" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.381"/>
+  <testsuite name="Account / Reseller / Child accounts / Creates a reseller child" id="ed2ec0b4-40c3-4d8b-adf6-64aa9c5b31a8" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.338"/>
+  <testsuite name="Account / Process / Return all the processes for your account" id="e8837689-6482-4a76-9e91-9ca6fe60a45b" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="1.260"/>
+  <testsuite name="Account / Process / Return the informations for a process" id="5fa77121-5d69-4e25-8c1e-0196594c4458" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="1.572"/>
+  <testsuite name="Account / Corporate / Get the details of requested master account" id="935d3155-8e1f-4115-a369-a0cc8f175fb7" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.781"/>
+  <testsuite name="Account / Corporate / Get the list of all the sub-accounts of the master account." id="98f161d1-d6e5-4ad8-be9e-6a3371c57e12" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.260"/>
+  <testsuite name="Account / Corporate / Create a new sub-account under a master account." id="c58e7193-b40f-4f41-a5c6-e23e66c4e1dd" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.547"/>
+  <testsuite name="Account / Corporate / Generate SSO token to access Sendinblue" id="b74c2a21-fe42-4cc8-8c17-ba4c251c4ea4" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.381"/>
+  <testsuite name="Account / Corporate / Get sub-account details" id="167fddb2-04a9-470f-9e60-7acc7a1c01be" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.325"/>
+  <testsuite name="Account / Corporate / Delete a sub-account" id="9b18530c-ca46-4479-a4b4-00635079c514" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.295"/>
+  <testsuite name="Account / Corporate / Update sub-account plan" id="7fbdc5a5-5307-4934-b436-191cd81bc781" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.217"/>
+  <testsuite name="Account / Account data / Get your account information, plan and credits details" id="0b06c87a-4725-426b-bc1e-d8402101fede" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.367"/>
+  <testsuite name="Account / Senders / Get the list of all your senders" id="4bbf06b3-ba98-4a03-b971-ba7bd8b2288d" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="1.377"/>
+  <testsuite name="Account / Senders / Create a new sender" id="f68ce447-5617-4331-9ef1-1ec720643d0b" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="1.353"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for your account" id="8a5d5153-fa68-4557-8968-11d4df9f8128" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.450"/>
+  <testsuite name="Account / Senders / Update a sender" id="d66cbcf4-c244-4910-b110-79701ce946f6" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.687"/>
+  <testsuite name="Account / Senders / Delete a sender" id="b9392b00-8610-4d36-b477-eba5b1e73f7d" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="0.675"/>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for a sender" id="3b20636b-f7fd-4656-b0b3-5a20150d65ff" timestamp="2024-03-08T11:00:43.369Z" tests="0" failures="0" errors="0" time="1.007"/>
+</testsuites>
