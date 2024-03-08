@@ -1,0 +1,1 @@
+{"domains":["elenor.info","example.com","judge.org"]}

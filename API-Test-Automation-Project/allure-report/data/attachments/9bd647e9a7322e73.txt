@@ -1,0 +1,26 @@
+[
+    {
+        "id": "65e5db4f42b3b4b10430c037",
+        "title": "Email"
+    },
+    {
+        "id": "65e5db4f42b3b4b10430c038",
+        "title": "Call"
+    },
+    {
+        "id": "65e5db4f42b3b4b10430c039",
+        "title": "Todo"
+    },
+    {
+        "id": "65e5db4f42b3b4b10430c03a",
+        "title": "Meeting"
+    },
+    {
+        "id": "65e5db4f42b3b4b10430c03b",
+        "title": "Lunch"
+    },
+    {
+        "id": "65e5db4f42b3b4b10430c03c",
+        "title": "Deadline"
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "email": "syegok99@example.com",
+  "attributes": {
+    "FNAME": "JOHN"
+  },
+  "emailBlacklisted": false,
+  "smsBlacklisted": false,
+  "listIds": [
+    36
+  ],
+  "updateEnabled": false,
+  "smtpBlacklistSender": [
+    "5l5on@XCyTwNVlbFYMuZJRtYQifJ.mvm",
+    "AHzfzNXj0fQ@ogSExyrBXmIaCyjopMPfNgGdxE.siws"
+  ]
+}
