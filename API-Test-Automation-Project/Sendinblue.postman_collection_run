@@ -1,0 +1,4141 @@
+{
+	"id": "b7b958b1-8882-4b07-9033-3bb49fe33f28",
+	"name": "Sendinblue",
+	"timestamp": "2024-03-08T23:17:12.355Z",
+	"collection_id": "25881164-62b1a60e-ec7b-42be-998f-8be54c284df1",
+	"folder_id": 0,
+	"environment_id": "25881164-14590ca7-b31c-44e2-a25d-ce583b1c208d",
+	"totalPass": 253,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-08T23:16:31.487Z",
+	"totalFail": 10,
+	"results": [
+		{
+			"id": "f749f7fd-c8d7-4fe0-ae54-574a04b49ecf",
+			"name": "Get all Companies",
+			"url": "https://api.sendinblue.com/v3/companies?filters=veniam elit in&linkedContactsIds=13396752&linkedDealsIds=veniam elit in&page=13396752&limit=13396752&sort=desc&sortBy=veniam elit in",
+			"time": 277,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Response time is less than 2000ms": true,
+				"Error Message Type Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				277
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Response time is less than 2000ms": true,
+					"Error Message Type Test": true
+				}
+			]
+		},
+		{
+			"id": "76226fbb-ebe2-4fee-924d-f16574bf7b01",
+			"name": "Create a company",
+			"url": "https://api.sendinblue.com/v3/companies",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "9ef3940a-e8a7-42eb-993a-cfe4991375b6",
+			"name": "Get company attributes",
+			"url": "https://api.sendinblue.com/v3/companies/attributes",
+			"time": 200,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Content-Length is present": true,
+				"Error Message Value Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Length is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				200
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Content-Length is present": true,
+					"Error Message Value Test": true
+				}
+			]
+		},
+		{
+			"id": "cefa4824-ae82-4a9c-b06c-f9ce77d7f5c0",
+			"name": "Link and Unlink company with contact and deal",
+			"url": "https://api.sendinblue.com/v3/companies/link-unlink/veniam elit in",
+			"time": 232,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Date is present": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Date is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Date is present": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "3fcdeabc-32b2-4a4a-82e6-39056f1093cd",
+			"name": "Get a company",
+			"url": "https://api.sendinblue.com/v3/companies/vietnam",
+			"time": 221,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response size is less than 100 B": true,
+				"Connection is present": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Response size is less than 100 B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Response size is less than 100 B": true,
+					"Connection is present": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "71463997-93c8-4cb4-857a-d55f09dce77f",
+			"name": "Delete a company",
+			"url": "https://api.sendinblue.com/v3/companies/veniam elit in",
+			"time": 256,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 10000ms": true,
+				"Server is present": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 10000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				256
+			],
+			"allTests": [
+				{
+					"Response time is less than 10000ms": true,
+					"Server is present": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "f856d23e-9d67-4b60-b22c-9854d2105845",
+			"name": "Update a company",
+			"url": "https://api.sendinblue.com/v3/companies/veniam elit in",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "dd763d02-9149-4558-9271-0a6d014cb8a8",
+			"name": "Get pipeline stages",
+			"url": "https://api.sendinblue.com/v3/crm/pipeline/details",
+			"time": 206,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 1000ms": true,
+				"CF-Ray is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CF-Ray is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Response time is less than 1000ms": true,
+					"CF-Ray is present": true
+				}
+			]
+		},
+		{
+			"id": "6adfeb92-191c-49be-82f1-7d1b6e22aac2",
+			"name": "https://api.sendinblue.com/v3/companies/:id",
+			"url": "https://api.sendinblue.com/v3/companies/veniam elit in",
+			"time": 205,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Your test name": false,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Your test name": false,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "d6e802ae-8bf6-4660-83e9-349e7778cbc0",
+			"name": "Get all deals",
+			"url": "https://api.sendinblue.com/v3/crm/deals?filter[attributes]=veniam elit in&filter[linkedCompaniesIds]=veniam elit in&filter[linkedContactsIds]=veniam elit in&offset=13396752&limit=13396752&sort=desc",
+			"time": 217,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 10000ms": true,
+				"message Response": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 10000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"message Response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Response time is less than 10000ms": true,
+					"message Response": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "cd2e8f2c-e7a4-44d6-ba0d-c250891033f1",
+			"name": "Create a deal",
+			"url": "https://api.sendinblue.com/v3/crm/deals",
+			"time": 258,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"CF-Cache-Status is present": true,
+				"Response size is less than 2000 B": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CF-Cache-Status is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 2000 B": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				258
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"CF-Cache-Status is present": true,
+					"Response size is less than 2000 B": true
+				}
+			]
+		},
+		{
+			"id": "94d0f5aa-acdb-4baf-9a19-9259783a8165",
+			"name": "Link and Unlink a deal with contacts and companies",
+			"url": "https://api.sendinblue.com/v3/crm/deals/link-unlink/veniam elit in",
+			"time": 204,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"CF-Ray is present": true,
+				"Response size is less than 200 B": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CF-Ray is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response size is less than 200 B": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"CF-Ray is present": true,
+					"Response size is less than 200 B": true
+				}
+			]
+		},
+		{
+			"id": "f0f6b60a-e81f-409d-a8db-408d1a9be397",
+			"name": "Get deal attributes",
+			"url": "https://api.sendinblue.com/v3/crm/attributes/deals",
+			"time": 247,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 700000ms": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 700000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				247
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 700000ms": true
+				}
+			]
+		},
+		{
+			"id": "6e5315eb-dcb1-4828-8495-b7a28ce5765a",
+			"name": "Get a deal",
+			"url": "https://api.sendinblue.com/v3/crm/deals/veniam elit in",
+			"time": 244,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Vary is present": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Vary is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				244
+			],
+			"allTests": [
+				{
+					"Vary is present": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "2e7d1a56-18ee-42e7-aa0f-8264b0adf43d",
+			"name": "Delete a deal",
+			"url": "https://api.sendinblue.com/v3/crm/deals/veniam elit in",
+			"time": 243,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 2000ms": true,
+				"Connection is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				243
+			],
+			"allTests": [
+				{
+					"Response time is less than 2000ms": true,
+					"Connection is present": true
+				}
+			]
+		},
+		{
+			"id": "39cf67b2-6e5b-40ae-a128-16eb6f287828",
+			"name": "Update a deal",
+			"url": "https://api.sendinblue.com/v3/crm/deals/veniam elit in",
+			"time": 195,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"sib-request-id is present": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"sib-request-id is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				195
+			],
+			"allTests": [
+				{
+					"sib-request-id is present": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "2031cbb7-2b3a-4563-bf6f-6434f03a55db",
+			"name": "Get all tasks",
+			"url": "https://api.sendinblue.com/v3/crm/tasks?filter[type]=veniam elit in&filter[status]=done&filter[date]=range&filter[assignTo]=veniam elit in&filter[contacts]=veniam elit in&filter[deals]=veniam elit in&filter[companies]=veniam elit in&dateFrom=-41398727&dateTo=-41398727&offset=13396752&limit=50&sort=desc&sortBy=name",
+			"time": 240,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Response time is less than 2000ms": true,
+				"Error Message Presence Test": true,
+				"Error Message Type Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Response time is less than 2000ms": true,
+					"Error Message Presence Test": true,
+					"Error Message Type Test": true
+				}
+			]
+		},
+		{
+			"id": "b45bd963-87f9-48b7-bd5e-85b4702720d1",
+			"name": "Create a task",
+			"url": "https://api.sendinblue.com/v3/crm/tasks",
+			"time": 191,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 200ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "3226010b-9566-49fc-a107-79c2e54aa1ca",
+			"name": "Get all task types",
+			"url": "https://api.sendinblue.com/v3/crm/tasktypes",
+			"time": 237,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				237
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "bd05e776-c9b8-4da8-89b6-5d9735d9d705",
+			"name": "Get a task",
+			"url": "https://api.sendinblue.com/v3/crm/tasks/veniam elit in",
+			"time": 209,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Length Test": true,
+				"Error Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				209
+			],
+			"allTests": [
+				{
+					"Error Message Length Test": true,
+					"Error Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "41dcabd5-3f1e-42ac-abc6-ff9c7d92e732",
+			"name": "Delete a task",
+			"url": "https://api.sendinblue.com/v3/crm/tasks/veniam elit in",
+			"time": 201,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Presence Test": true,
+				"CF-RAY is present": true
+			},
+			"testPassFailCounts": {
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CF-RAY is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				201
+			],
+			"allTests": [
+				{
+					"Error Message Presence Test": true,
+					"CF-RAY is present": true
+				}
+			]
+		},
+		{
+			"id": "2689221b-103f-4e60-a5ed-b3f80770d3a3",
+			"name": "Update a task",
+			"url": "https://api.sendinblue.com/v3/crm/tasks/veniam elit in",
+			"time": 207,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Type Test": true,
+				"Error Message Presence Test": true,
+				"Error Message Length Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				207
+			],
+			"allTests": [
+				{
+					"Error Message Type Test": true,
+					"Error Message Presence Test": true,
+					"Error Message Length Test": true
+				}
+			]
+		},
+		{
+			"id": "e1e59c3e-3276-4de1-a929-db0c0e40e678",
+			"name": "Get all notes",
+			"url": "https://api.sendinblue.com/v3/crm/notes?entity=deals&entityIds=veniam elit in&dateFrom=-41398727&dateTo=-41398727&offset=13396752&limit=50&sort=desc",
+			"time": 224,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Content Test": true,
+				"Error Message Type Test": true,
+				"CF-Cache-Status is present": true
+			},
+			"testPassFailCounts": {
+				"Error Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"CF-Cache-Status is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				224
+			],
+			"allTests": [
+				{
+					"Error Message Content Test": true,
+					"Error Message Type Test": true,
+					"CF-Cache-Status is present": true
+				}
+			]
+		},
+		{
+			"id": "eba86c07-c1b3-41b3-9ae3-7a8a1dd5f779",
+			"name": "Create a note",
+			"url": "https://api.sendinblue.com/v3/crm/notes",
+			"time": 256,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Value Test": true,
+				"Error Message Type Test": true,
+				"Server is present": true
+			},
+			"testPassFailCounts": {
+				"Error Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				256
+			],
+			"allTests": [
+				{
+					"Error Message Value Test": true,
+					"Error Message Type Test": true,
+					"Server is present": true
+				}
+			]
+		},
+		{
+			"id": "65e3a528-51f3-4c57-9134-4e995a87a045",
+			"name": "Get a note",
+			"url": "https://api.sendinblue.com/v3/crm/notes/veniam elit in",
+			"time": 248,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Content Test": false,
+				"Error Message Length Test": true,
+				"Error Message Presence Test": true,
+				"Error Message Type Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Content Test": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				248
+			],
+			"allTests": [
+				{
+					"Error Message Content Test": false,
+					"Error Message Length Test": true,
+					"Error Message Presence Test": true,
+					"Error Message Type Test": true
+				}
+			]
+		},
+		{
+			"id": "a8e278cf-b495-4636-bb8c-11bd2d2d60f1",
+			"name": "Update a note",
+			"url": "https://api.sendinblue.com/v3/crm/notes/veniam elit in",
+			"time": 235,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Length Test": true,
+				"Error Message Presence Test": true,
+				"Error Message Type Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				235
+			],
+			"allTests": [
+				{
+					"Error Message Length Test": true,
+					"Error Message Presence Test": true,
+					"Error Message Type Test": true
+				}
+			]
+		},
+		{
+			"id": "ec865b70-4032-4e2d-9b50-521d04585c6f",
+			"name": "Delete a note",
+			"url": "https://api.sendinblue.com/v3/crm/notes/veniam elit in",
+			"time": 197,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Presence Test": true,
+				"Error Message Type Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197
+			],
+			"allTests": [
+				{
+					"Error Message Presence Test": true,
+					"Error Message Type Test": true
+				}
+			]
+		},
+		{
+			"id": "e02755b9-6acb-4bcf-bd08-11d755f6ebc5",
+			"name": "Get all files",
+			"url": "https://api.sendinblue.com/v3/crm/files?entity=deals&entityIds=veniam elit in&dateFrom=-41398727&dateTo=-41398727&offset=13396752&limit=50&sort=desc",
+			"time": 197,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Presence Test": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				197
+			],
+			"allTests": [
+				{
+					"Error Message Presence Test": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "2e2757ca-8c9d-4cb4-bcf9-07b772379e7c",
+			"name": "Upload a file",
+			"url": "https://api.sendinblue.com/v3/crm/files",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Error Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Error Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "31e7f6b1-6675-46ab-b2e1-4f89eaf19a3e",
+			"name": "Download a file",
+			"url": "https://api.sendinblue.com/v3/crm/files/veniam elit in",
+			"time": 238,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Vary is present": true,
+				"Response time is less than 5000ms": true
+			},
+			"testPassFailCounts": {
+				"Vary is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				238
+			],
+			"allTests": [
+				{
+					"Vary is present": true,
+					"Response time is less than 5000ms": true
+				}
+			]
+		},
+		{
+			"id": "4213345e-3b92-4b01-8f9e-f8fff2d56d6e",
+			"name": "Delete a file",
+			"url": "https://api.sendinblue.com/v3/crm/files/veniam elit in",
+			"time": 179,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Error Message Length Test": true,
+				"Error Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				179
+			],
+			"allTests": [
+				{
+					"Error Message Length Test": true,
+					"Error Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "4f3e9739-9236-4d77-ba6a-2123fdf8286b",
+			"name": "Get file details",
+			"url": "https://api.sendinblue.com/v3/crm/files/veniam elit in/data",
+			"time": 211,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Date is present": true,
+				"Error Message Length Test": true,
+				"Error Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Date is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Error Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Date is present": true,
+					"Error Message Length Test": true,
+					"Error Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "1178790c-0a6c-4472-9134-df0e49c6687d",
+			"name": "Get an email campaign report",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752",
+			"time": 214,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true,
+				"Message Presence Test": true,
+				"Message Content Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true,
+					"Message Presence Test": true,
+					"Message Content Test": true
+				}
+			]
+		},
+		{
+			"id": "02a70600-3b00-4844-97c5-3449032e0fd7",
+			"name": "Update an email campaign",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752",
+			"time": 216,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true,
+				"Message Presence Test": true,
+				"Message Content Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true,
+					"Message Presence Test": true,
+					"Message Content Test": true
+				}
+			]
+		},
+		{
+			"id": "c0d3002d-a932-496a-b1cb-5164d232a5dd",
+			"name": "Delete an email campaign",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752",
+			"time": 180,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true,
+				"Message Content Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true,
+					"Message Content Test": true
+				}
+			]
+		},
+		{
+			"id": "e3a16a56-9ff6-4af0-a45d-73757505fc74",
+			"name": "Send an email campaign immediately, based on campaignId",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/sendNow",
+			"time": 190,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "da86791f-c228-4302-8d70-f22d9c7a62d7",
+			"name": "Send an email campaign to your test list",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/sendTest",
+			"time": 199,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Code Presence Test": true,
+				"Code Value Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				199
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Code Presence Test": true,
+					"Code Value Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "43e33608-cb00-40e5-bf18-9aca4e7badc8",
+			"name": "Update an email campaign status",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/status",
+			"time": 194,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Length Test": true,
+				"Response Body Type Test": true,
+				"Message Field Length Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Code Field Length Test": true,
+					"Response Body Type Test": true,
+					"Message Field Length Test": true
+				}
+			]
+		},
+		{
+			"id": "ecccc1d4-5d1a-4c81-a50f-5176cd32fa28",
+			"name": "Send the report of a campaign",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/sendReport",
+			"time": 205,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Structure Test": true,
+				"Response Body Type Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Response Body Structure Test": true,
+					"Response Body Type Test": true
+				}
+			]
+		},
+		{
+			"id": "5465ffad-8596-4c5f-8017-b3d16c990f37",
+			"name": "Get an A/B test email campaign results",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/abTestCampaignResult",
+			"time": 241,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Length Test": true,
+				"Response Body Type Test": true,
+				"Message Field Length Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				241
+			],
+			"allTests": [
+				{
+					"Code Field Length Test": true,
+					"Response Body Type Test": true,
+					"Message Field Length Test": true
+				}
+			]
+		},
+		{
+			"id": "5327bc83-83a0-47f8-8113-7409dd8367d7",
+			"name": "Get a shared template url",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/sharedUrl",
+			"time": 778,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Server is present": true,
+				"Response Body Type Test": true
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				778
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"Response Body Type Test": true
+				}
+			]
+		},
+		{
+			"id": "09de48a6-b2ee-4b05-b662-5394394dcfe1",
+			"name": "Export the recipients of an email campaign",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/13396752/exportRecipients",
+			"time": 240,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true
+				}
+			]
+		},
+		{
+			"id": "ca1f7e66-d8e2-4893-90f2-be3bbf1a39ed",
+			"name": "Return all your created email campaigns",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns?type=classic&status=archive&startDate=veniam elit in&endDate=veniam elit in&limit=50&offset=0&sort=desc",
+			"time": 200,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Structure Test": true,
+				"Response Body Type Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				200
+			],
+			"allTests": [
+				{
+					"Response Body Structure Test": true,
+					"Response Body Type Test": true
+				}
+			]
+		},
+		{
+			"id": "653b9cd0-b354-41d5-a6d7-88d2f7174725",
+			"name": "Create an email campaign",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns",
+			"time": 264,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Type Test": true,
+				"Response Body Object Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Object Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				264
+			],
+			"allTests": [
+				{
+					"Response Body Type Test": true,
+					"Response Body Object Test": true
+				}
+			]
+		},
+		{
+			"id": "7cfbaa06-61cf-46de-a4e2-6d1924a35e76",
+			"name": "Upload an image to your account's image gallery",
+			"url": "https://api.sendinblue.com/v3/emailCampaigns/images",
+			"time": 221,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Object Test": true,
+				"Response Body Type Test": true,
+				"Code Field Length Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Object Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Response Body Object Test": true,
+					"Response Body Type Test": true,
+					"Code Field Length Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "9ba8f2d5-abb0-48fa-9483-b82ed0a24fe0",
+			"name": "Returns the information for all your created SMS campaigns",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns?status=archive&startDate=veniam elit in&endDate=veniam elit in&limit=500&offset=0&sort=desc",
+			"time": 220,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response Body Object Test": true,
+				"Response Body Type Test": true,
+				"Code Field Length Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Object Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				220
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response Body Object Test": true,
+					"Response Body Type Test": true,
+					"Code Field Length Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "495aa477-8e5e-4afd-b887-cf7a4a302110",
+			"name": "Creates an SMS campaign",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns",
+			"time": 214,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Response Body Content Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				214
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Response Body Content Type Test": true
+				}
+			]
+		},
+		{
+			"id": "22de1f78-e0de-4e5e-b73d-ab6e63656cdd",
+			"name": "Get an SMS campaign",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752",
+			"time": 724,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Type Test": true,
+				"Code Field Length Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				724
+			],
+			"allTests": [
+				{
+					"Response Body Type Test": true,
+					"Code Field Length Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "4157a34b-106c-4132-b17e-ca266687ab58",
+			"name": "Update an SMS campaign",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752",
+			"time": 266,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 10000ms": true,
+				"Response Body Type Test": true,
+				"Code Field Length Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 10000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				266
+			],
+			"allTests": [
+				{
+					"Response time is less than 10000ms": true,
+					"Response Body Type Test": true,
+					"Code Field Length Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "6f35ca6b-b260-4a00-8eaa-3d3cb9f73e13",
+			"name": "Delete an SMS campaign",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752",
+			"time": 211,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response size is less than 10000ms": true,
+				"Response Body Type Test": true,
+				"Code Field Length Test": true,
+				"Response Body Structure Test": true
+			},
+			"testPassFailCounts": {
+				"Response size is less than 10000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Length Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Structure Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Response size is less than 10000ms": true,
+					"Response Body Type Test": true,
+					"Code Field Length Test": true,
+					"Response Body Structure Test": true
+				}
+			]
+		},
+		{
+			"id": "2d16d69c-3f8e-402c-877d-97f1fabbd6f1",
+			"name": "Send your SMS campaign immediately",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752/sendNow",
+			"time": 182,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Connection is present": true,
+				"Response Body Content Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				182
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Connection is present": true,
+					"Response Body Content Type Test": true
+				}
+			]
+		},
+		{
+			"id": "9b3ad1bd-f525-4fb7-973c-e141531a1ccb",
+			"name": "Update a campaign's status",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752/status",
+			"time": 210,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Connection is present": true,
+				"Response Body Content Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Connection is present": true,
+					"Response Body Content Type Test": true
+				}
+			]
+		},
+		{
+			"id": "5c3fa967-5d32-4658-8c91-043a86bf62f6",
+			"name": "Send a test SMS campaign",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752/sendTest",
+			"time": 188,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Connection is present": true,
+				"Response Body Content Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Connection is present": true,
+					"Response Body Content Type Test": true
+				}
+			]
+		},
+		{
+			"id": "deefb60a-87fd-4318-a724-b167c16aad76",
+			"name": "Export an SMS campaign's recipients",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752/exportRecipients",
+			"time": 217,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Connection is present": true,
+				"Response Body Content Type Test": true,
+				"Successful POST request": false
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Connection is present": true,
+					"Response Body Content Type Test": true,
+					"Successful POST request": false
+				}
+			]
+		},
+		{
+			"id": "5df053f4-03a3-499b-88f9-adc8a5925810",
+			"name": "Send an SMS campaign's report",
+			"url": "https://api.sendinblue.com/v3/smsCampaigns/13396752/sendReport",
+			"time": 191,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Code Field Presence Test": true,
+				"Connection is present": true,
+				"Response Body Content Type Test": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Code Field Presence Test": true,
+					"Connection is present": true,
+					"Response Body Content Type Test": true
+				}
+			]
+		},
+		{
+			"id": "fa3c0b71-313d-449e-870d-651f5e4cbc9e",
+			"name": "Send a message as an agent",
+			"url": "https://api.sendinblue.com/v3/conversations/messages",
+			"time": 204,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Check response message in body": true,
+				"Check response code in body": false
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response code in body": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Check response message in body": true,
+					"Check response code in body": false
+				}
+			]
+		},
+		{
+			"id": "a8799368-68db-4a08-99c6-551a9a48733c",
+			"name": "Get a message",
+			"url": "https://api.sendinblue.com/v3/conversations/messages/veniam elit in",
+			"time": 189,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Check response message in body": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				189
+			],
+			"allTests": [
+				{
+					"Check response message in body": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "e18f68f1-c3f3-4781-a7a9-c338c05106fe",
+			"name": "Update a message sent by an agent",
+			"url": "https://api.sendinblue.com/v3/conversations/messages/veniam elit in",
+			"time": 204,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Check response message in body": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Check response message in body": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "87536534-a476-4328-858f-c5f2c55e9c10",
+			"name": "Delete a message sent by an agent",
+			"url": "https://api.sendinblue.com/v3/conversations/messages/veniam elit in",
+			"time": 234,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Check response message in body": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				234
+			],
+			"allTests": [
+				{
+					"Check response message in body": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "65cd846e-de31-4090-9bec-7d4cf1cb4a4b",
+			"name": "Sets agent’s status to online for 2-3 minutes",
+			"url": "https://api.sendinblue.com/v3/conversations/agentOnlinePing",
+			"time": 235,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Check response message in body": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				235
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Check response message in body": true
+				}
+			]
+		},
+		{
+			"id": "7a8fe29d-1a9e-4291-b5a1-9fa639b2eb2d",
+			"name": "Send an automated message to a visitor",
+			"url": "https://api.sendinblue.com/v3/conversations/pushedMessages",
+			"time": 230,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Server is present": true,
+				"Check response message in body": true
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				230
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"Check response message in body": true
+				}
+			]
+		},
+		{
+			"id": "a10bac77-d388-4f10-8131-cf443ff46e93",
+			"name": "Get an automated message",
+			"url": "https://api.sendinblue.com/v3/conversations/pushedMessages/veniam elit in",
+			"time": 239,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Server is present": true,
+				"Check response message in body": true
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				239
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"Check response message in body": true
+				}
+			]
+		},
+		{
+			"id": "af9ffce1-2e20-4db4-8523-5b69fcdfbdae",
+			"name": "Update an automated message",
+			"url": "https://api.sendinblue.com/v3/conversations/pushedMessages/veniam elit in",
+			"time": 211,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Server is present": true,
+				"Check response message in body": true
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"Check response message in body": true
+				}
+			]
+		},
+		{
+			"id": "78f378ea-000d-4624-9b9e-ed982c7863de",
+			"name": "Delete an automated message",
+			"url": "https://api.sendinblue.com/v3/conversations/pushedMessages/veniam elit in",
+			"time": 202,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Server is present": true,
+				"Content-Type is present": true,
+				"Check response message in body": true,
+				"Check response code in body": false
+			},
+			"testPassFailCounts": {
+				"Server is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response message in body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Check response code in body": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Server is present": true,
+					"Content-Type is present": true,
+					"Check response message in body": true,
+					"Check response code in body": false
+				}
+			]
+		},
+		{
+			"id": "014714b0-1682-446e-b62a-0f6e421d3e27",
+			"name": "Get all the contacts",
+			"url": "https://api.sendinblue.com/v3/contacts?limit=50&offset=0&modifiedSince=2022-02-01T00:00:00.000&sort=desc",
+			"time": 289,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 70000ms": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 70000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				289
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 70000ms": true
+				}
+			]
+		},
+		{
+			"id": "95710efd-60a7-472e-af7b-c22633cdc0c2",
+			"name": "Create a contact",
+			"url": "https://api.sendinblue.com/v3/contacts",
+			"time": 188,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Successful POST request": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Successful POST request": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "71ba7aed-78a2-4cec-a757-1b43377abcb4",
+			"name": "Create Contact via DOI (Double-Opt-In) Flow",
+			"url": "https://api.sendinblue.com/v3/contacts/doubleOptinConfirmation",
+			"time": 213,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				213
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "2a0f87ad-3c68-44b2-88ee-cecb24bab8f9",
+			"name": "Update multiple contacts",
+			"url": "https://api.sendinblue.com/v3/contacts/batch",
+			"time": 186,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": false,
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				186
+			],
+			"allTests": [
+				{
+					"Body matches string": false,
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "b4b517ee-e34a-4853-9e09-817111a10e61",
+			"name": "Export contacts",
+			"url": "https://api.sendinblue.com/v3/contacts/export",
+			"time": 210,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "a3dcb2f8-359d-489b-9b78-1b278077bf85",
+			"name": "Import contacts",
+			"url": "https://api.sendinblue.com/v3/contacts/import",
+			"time": 194,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Value Test": true,
+				"Message Field Value Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Value Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Code Field Value Test": true,
+					"Message Field Value Test": true
+				}
+			]
+		},
+		{
+			"id": "33fe197a-f935-44e3-b24a-c8a61676933d",
+			"name": "Get a contact's details",
+			"url": "https://api.sendinblue.com/v3/contacts/{{email}}",
+			"time": 194,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "8d6dac51-10e0-4bba-9a95-96985f82b557",
+			"name": "Delete a contact",
+			"url": "https://api.sendinblue.com/v3/contacts/{{contact_id}}",
+			"time": 195,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Value Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				195
+			],
+			"allTests": [
+				{
+					"Code Field Value Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "6fb7647a-6611-44f8-b0d2-3e686d4eea7a",
+			"name": "Update a contact",
+			"url": "https://api.sendinblue.com/v3/contacts/veniam elit in",
+			"time": 188,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Body matches string": true,
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				188
+			],
+			"allTests": [
+				{
+					"Body matches string": true,
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "c41b3d1d-1366-466a-b40e-2ecf0fb5f17a",
+			"name": "Get email campaigns' statistics for a contact",
+			"url": "https://api.sendinblue.com/v3/contacts/veniam elit in/campaignStats?startDate=veniam elit in&endDate=veniam elit in",
+			"time": 212,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Content Type Test": true,
+				"Response Body Object Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Object Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				212
+			],
+			"allTests": [
+				{
+					"Response Body Content Type Test": true,
+					"Response Body Object Test": true
+				}
+			]
+		},
+		{
+			"id": "b0cbb96c-4498-44fa-b192-8de0ae429ba5",
+			"name": "Get all folders",
+			"url": "https://api.sendinblue.com/v3/contacts/folders?limit=10&offset=0&sort=desc",
+			"time": 199,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response time is less than 70000ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 70000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				199
+			],
+			"allTests": [
+				{
+					"Response time is less than 70000ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "1a3b4023-9d8c-42d3-b330-bbbd30656d56",
+			"name": "Create a folder",
+			"url": "https://api.sendinblue.com/v3/contacts/folders",
+			"time": 191,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"sib-request-id is present": true,
+				"Response time is less than 70000ms": true
+			},
+			"testPassFailCounts": {
+				"sib-request-id is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 70000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				191
+			],
+			"allTests": [
+				{
+					"sib-request-id is present": true,
+					"Response time is less than 70000ms": true
+				}
+			]
+		},
+		{
+			"id": "4bd88902-0d18-4b90-b692-3589306c8c82",
+			"name": "Returns a folder's details",
+			"url": "https://api.sendinblue.com/v3/contacts/folders/13396752",
+			"time": 221,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Presence Test": true,
+				"Message Field Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Code Field Presence Test": true,
+					"Message Field Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "77115ec6-9cbc-48bb-b75f-a7fd89ae50d7",
+			"name": "Update a folder",
+			"url": "https://api.sendinblue.com/v3/contacts/folders/13396752",
+			"time": 190,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Field Value Test": true,
+				"Message Field Value Test": true
+			},
+			"testPassFailCounts": {
+				"Code Field Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Field Value Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"Code Field Value Test": true,
+					"Message Field Value Test": true
+				}
+			]
+		},
+		{
+			"id": "33b17855-2ef3-446c-9531-68ac676874a6",
+			"name": "Delete a folder (and all its lists)",
+			"url": "https://api.sendinblue.com/v3/contacts/folders/13396752",
+			"time": 190,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Content Type Test": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"Response Body Content Type Test": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "984f27a7-3d9a-4f98-ba66-c3bcf3225713",
+			"name": "Get lists in a folder",
+			"url": "https://api.sendinblue.com/v3/contacts/folders/13396752/lists?limit=10&offset=0&sort=desc",
+			"time": 226,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Response Body Content Type Test": true,
+				"Content-Type is present": true,
+				"Response Body Type Test": true
+			},
+			"testPassFailCounts": {
+				"Response Body Content Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Body Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				226
+			],
+			"allTests": [
+				{
+					"Response Body Content Type Test": true,
+					"Content-Type is present": true,
+					"Response Body Type Test": true
+				}
+			]
+		},
+		{
+			"id": "2cbf9d20-b27b-40fb-befc-5fd00c92457a",
+			"name": "Get all the lists",
+			"url": "https://api.sendinblue.com/v3/contacts/lists?limit=10&offset=0&sort=desc",
+			"time": 204,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				204
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "b4419a8c-e5cd-41ea-b901-d814a8475d64",
+			"name": "Create a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists",
+			"time": 212,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				212
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "36d073dc-a2af-4c0b-8367-1bb1d2f11235",
+			"name": "Get contacts in a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752/contacts?modifiedSince=veniam elit in&limit=50&offset=0&sort=desc",
+			"time": 211,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Presence Test": true,
+				"Code Type Test": true
+			},
+			"testPassFailCounts": {
+				"Code Presence Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Type Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"Code Presence Test": true,
+					"Code Type Test": true
+				}
+			]
+		},
+		{
+			"id": "a7ce8c91-49f1-4763-bb12-1af90d1a3629",
+			"name": "Add existing contacts to a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752/contacts/add",
+			"time": 219,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "314283de-6c3f-48a4-af9e-677a1ae65576",
+			"name": "Delete a contact from a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752/contacts/remove",
+			"time": 202,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "6f07a6a2-60b0-4da0-abde-001bb3f7a281",
+			"name": "Get a list's details",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752",
+			"time": 225,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Message Type Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				225
+			],
+			"allTests": [
+				{
+					"Message Type Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "1dcdb01d-5963-4c89-b226-f50d76dece5b",
+			"name": "Update a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752",
+			"time": 220,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Presence of 'code' Test": true,
+				"Type of 'code' Test": true,
+				"Message Value Test": true
+			},
+			"testPassFailCounts": {
+				"Presence of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				220
+			],
+			"allTests": [
+				{
+					"Presence of 'code' Test": true,
+					"Type of 'code' Test": true,
+					"Message Value Test": true
+				}
+			]
+		},
+		{
+			"id": "cc948d8a-e324-460f-8133-165f1e646249",
+			"name": "Delete a list",
+			"url": "https://api.sendinblue.com/v3/contacts/lists/13396752",
+			"time": 208,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Message Value Test": true,
+				"Code Value Test": true,
+				"Type of 'code' Test": true
+			},
+			"testPassFailCounts": {
+				"Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Message Value Test": true,
+					"Code Value Test": true,
+					"Type of 'code' Test": true
+				}
+			]
+		},
+		{
+			"id": "ed8ec4a4-51d9-45fd-9f2a-6787bd25e72d",
+			"name": "List all attributes",
+			"url": "https://api.sendinblue.com/v3/contacts/attributes",
+			"time": 208,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Message Type Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Message Type Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "9a1510c2-f2a4-4f0e-b95a-eadd5656da2c",
+			"name": "Update contact attribute",
+			"url": "https://api.sendinblue.com/v3/contacts/attributes/global/veniam elit in",
+			"time": 245,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Length is present": true,
+				"Code Value Test": true,
+				"Message Type Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Length is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Type Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				245
+			],
+			"allTests": [
+				{
+					"Content-Length is present": true,
+					"Code Value Test": true,
+					"Message Type Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "6c472c6a-1a88-4298-a10f-d09b4e277c48",
+			"name": "Create contact attribute",
+			"url": "https://api.sendinblue.com/v3/contacts/attributes/global/veniam elit in",
+			"time": 194,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Code Value Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Code Value Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "0e399dc1-29f6-4272-a662-c0bb766ee77a",
+			"name": "Delete an attribute",
+			"url": "https://api.sendinblue.com/v3/contacts/attributes/global/veniam elit in",
+			"time": 236,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Type of 'code' Test": true,
+				"Message Content Test": true,
+				"Message Presence Test": true
+			},
+			"testPassFailCounts": {
+				"Type of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Content Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Presence Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				236
+			],
+			"allTests": [
+				{
+					"Type of 'code' Test": true,
+					"Message Content Test": true,
+					"Message Presence Test": true
+				}
+			]
+		},
+		{
+			"id": "e9e20006-20a7-4c2e-acc5-9bce394400d1",
+			"name": "Send a transactional email",
+			"url": "https://api.sendinblue.com/v3/smtp/email",
+			"time": 208,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Presence Test for 'messageId' Field": false,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Presence Test for 'messageId' Field": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Presence Test for 'messageId' Field": false,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "b49f514a-0812-49a2-a40f-7d41e5c01b9e",
+			"name": "Get the list of transactional emails on the basis of allowed filters",
+			"url": "https://api.sendinblue.com/v3/smtp/emails?email=veniam elit in&templateId=13396752&messageId=veniam elit in&startDate=veniam elit in&endDate=veniam elit in&sort=desc&limit=500&offset=0",
+			"time": 194,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Presence of 'code' Test": true,
+				"Type of 'code' Test": true
+			},
+			"testPassFailCounts": {
+				"Presence of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of 'code' Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				194
+			],
+			"allTests": [
+				{
+					"Presence of 'code' Test": true,
+					"Type of 'code' Test": true
+				}
+			]
+		},
+		{
+			"id": "4986db68-11e2-488b-b935-8fe6e497477c",
+			"name": "Delete scheduled emails by batchId or messageId",
+			"url": "https://api.sendinblue.com/v3/smtp/email/4320f270-a4e3-4a2e-b591-edfe30a5e627",
+			"time": 205,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Presence of 'message' Test": true,
+				"Type of 'message' Test": true
+			},
+			"testPassFailCounts": {
+				"Presence of 'message' Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Type of 'message' Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Presence of 'message' Test": true,
+					"Type of 'message' Test": true
+				}
+			]
+		},
+		{
+			"id": "a7b1a0c9-8745-4d5f-9bdd-9f14758727f0",
+			"name": "Get the personalized content of a sent transactional email",
+			"url": "https://api.sendinblue.com/v3/smtp/emails/veniam elit in",
+			"time": 206,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Value Test": true,
+				"Message Value Test": true
+			},
+			"testPassFailCounts": {
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				206
+			],
+			"allTests": [
+				{
+					"Code Value Test": true,
+					"Message Value Test": true
+				}
+			]
+		},
+		{
+			"id": "5fa5ea6a-1b96-42c4-9566-81620479b13a",
+			"name": "Fetch scheduled emails by batchId or messageId",
+			"url": "https://api.sendinblue.com/v3/smtp/emailStatus/4320f270-a4e3-4a2e-b591-edfe30a5e627?startDate=2022-02-02&endDate=2022-03-02&sort=desc&status=queued&limit=100&offset=0",
+			"time": 198,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Value Test": true,
+				"Message Value Test": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Code Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message Value Test": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				198
+			],
+			"allTests": [
+				{
+					"Code Value Test": true,
+					"Message Value Test": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "72b50408-39d8-4876-88b8-4a8217af4c68",
+			"name": "Get the list of email templates",
+			"url": "https://api.sendinblue.com/v3/smtp/templates?templateStatus=false&limit=50&offset=0&sort=desc",
+			"time": 227,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"Response time is less than 2000ms": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				227
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"Response time is less than 2000ms": true
+				}
+			]
+		},
+		{
+			"id": "bf564623-25e4-4149-ac50-6e554e78aaa3",
+			"name": "Create an email template",
+			"url": "https://api.sendinblue.com/v3/smtp/templates",
+			"time": 250,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Code Value Test": false,
+				"Message Value Test": false
+			},
+			"testPassFailCounts": {
+				"Code Value Test": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Message Value Test": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				250
+			],
+			"allTests": [
+				{
+					"Code Value Test": false,
+					"Message Value Test": false
+				}
+			]
+		},
+		{
+			"id": "681b49e4-5445-4e82-92c1-2f30cc96983a",
+			"name": "Returns the template information",
+			"url": "https://api.sendinblue.com/v3/smtp/templates/13396752",
+			"time": 247,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				247
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "31a7abbc-13c2-4ae4-bf87-71211c8598a8",
+			"name": "Update an email template",
+			"url": "https://api.sendinblue.com/v3/smtp/templates/13396752",
+			"time": 196,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				196
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "be6f7f93-bcae-4a79-b24b-f11fc0d02051",
+			"name": "Delete an inactive email template",
+			"url": "https://api.sendinblue.com/v3/smtp/templates/13396752",
+			"time": 215,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				215
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 23112,
+	"collection": {
+		"requests": [
+			{
+				"id": "f749f7fd-c8d7-4fe0-ae54-574a04b49ecf",
+				"method": "GET"
+			},
+			{
+				"id": "76226fbb-ebe2-4fee-924d-f16574bf7b01",
+				"method": "POST"
+			},
+			{
+				"id": "9ef3940a-e8a7-42eb-993a-cfe4991375b6",
+				"method": "GET"
+			},
+			{
+				"id": "cefa4824-ae82-4a9c-b06c-f9ce77d7f5c0",
+				"method": "PATCH"
+			},
+			{
+				"id": "3fcdeabc-32b2-4a4a-82e6-39056f1093cd",
+				"method": "GET"
+			},
+			{
+				"id": "71463997-93c8-4cb4-857a-d55f09dce77f",
+				"method": "DELETE"
+			},
+			{
+				"id": "f856d23e-9d67-4b60-b22c-9854d2105845",
+				"method": "PATCH"
+			},
+			{
+				"id": "dd763d02-9149-4558-9271-0a6d014cb8a8",
+				"method": "GET"
+			},
+			{
+				"id": "6adfeb92-191c-49be-82f1-7d1b6e22aac2",
+				"method": "PATCH"
+			},
+			{
+				"id": "d6e802ae-8bf6-4660-83e9-349e7778cbc0",
+				"method": "GET"
+			},
+			{
+				"id": "cd2e8f2c-e7a4-44d6-ba0d-c250891033f1",
+				"method": "POST"
+			},
+			{
+				"id": "94d0f5aa-acdb-4baf-9a19-9259783a8165",
+				"method": "PATCH"
+			},
+			{
+				"id": "f0f6b60a-e81f-409d-a8db-408d1a9be397",
+				"method": "GET"
+			},
+			{
+				"id": "6e5315eb-dcb1-4828-8495-b7a28ce5765a",
+				"method": "GET"
+			},
+			{
+				"id": "2e7d1a56-18ee-42e7-aa0f-8264b0adf43d",
+				"method": "DELETE"
+			},
+			{
+				"id": "39cf67b2-6e5b-40ae-a128-16eb6f287828",
+				"method": "PATCH"
+			},
+			{
+				"id": "2031cbb7-2b3a-4563-bf6f-6434f03a55db",
+				"method": "GET"
+			},
+			{
+				"id": "b45bd963-87f9-48b7-bd5e-85b4702720d1",
+				"method": "POST"
+			},
+			{
+				"id": "3226010b-9566-49fc-a107-79c2e54aa1ca",
+				"method": "GET"
+			},
+			{
+				"id": "bd05e776-c9b8-4da8-89b6-5d9735d9d705",
+				"method": "GET"
+			},
+			{
+				"id": "41dcabd5-3f1e-42ac-abc6-ff9c7d92e732",
+				"method": "DELETE"
+			},
+			{
+				"id": "2689221b-103f-4e60-a5ed-b3f80770d3a3",
+				"method": "PATCH"
+			},
+			{
+				"id": "e1e59c3e-3276-4de1-a929-db0c0e40e678",
+				"method": "GET"
+			},
+			{
+				"id": "eba86c07-c1b3-41b3-9ae3-7a8a1dd5f779",
+				"method": "POST"
+			},
+			{
+				"id": "65e3a528-51f3-4c57-9134-4e995a87a045",
+				"method": "GET"
+			},
+			{
+				"id": "a8e278cf-b495-4636-bb8c-11bd2d2d60f1",
+				"method": "PATCH"
+			},
+			{
+				"id": "ec865b70-4032-4e2d-9b50-521d04585c6f",
+				"method": "DELETE"
+			},
+			{
+				"id": "e02755b9-6acb-4bcf-bd08-11d755f6ebc5",
+				"method": "GET"
+			},
+			{
+				"id": "2e2757ca-8c9d-4cb4-bcf9-07b772379e7c",
+				"method": "POST"
+			},
+			{
+				"id": "31e7f6b1-6675-46ab-b2e1-4f89eaf19a3e",
+				"method": "GET"
+			},
+			{
+				"id": "4213345e-3b92-4b01-8f9e-f8fff2d56d6e",
+				"method": "DELETE"
+			},
+			{
+				"id": "4f3e9739-9236-4d77-ba6a-2123fdf8286b",
+				"method": "GET"
+			},
+			{
+				"id": "1178790c-0a6c-4472-9134-df0e49c6687d",
+				"method": "GET"
+			},
+			{
+				"id": "02a70600-3b00-4844-97c5-3449032e0fd7",
+				"method": "PUT"
+			},
+			{
+				"id": "c0d3002d-a932-496a-b1cb-5164d232a5dd",
+				"method": "DELETE"
+			},
+			{
+				"id": "e3a16a56-9ff6-4af0-a45d-73757505fc74",
+				"method": "POST"
+			},
+			{
+				"id": "da86791f-c228-4302-8d70-f22d9c7a62d7",
+				"method": "POST"
+			},
+			{
+				"id": "43e33608-cb00-40e5-bf18-9aca4e7badc8",
+				"method": "PUT"
+			},
+			{
+				"id": "ecccc1d4-5d1a-4c81-a50f-5176cd32fa28",
+				"method": "POST"
+			},
+			{
+				"id": "5465ffad-8596-4c5f-8017-b3d16c990f37",
+				"method": "GET"
+			},
+			{
+				"id": "5327bc83-83a0-47f8-8113-7409dd8367d7",
+				"method": "GET"
+			},
+			{
+				"id": "09de48a6-b2ee-4b05-b662-5394394dcfe1",
+				"method": "POST"
+			},
+			{
+				"id": "ca1f7e66-d8e2-4893-90f2-be3bbf1a39ed",
+				"method": "GET"
+			},
+			{
+				"id": "653b9cd0-b354-41d5-a6d7-88d2f7174725",
+				"method": "POST"
+			},
+			{
+				"id": "7cfbaa06-61cf-46de-a4e2-6d1924a35e76",
+				"method": "POST"
+			},
+			{
+				"id": "9ba8f2d5-abb0-48fa-9483-b82ed0a24fe0",
+				"method": "GET"
+			},
+			{
+				"id": "495aa477-8e5e-4afd-b887-cf7a4a302110",
+				"method": "POST"
+			},
+			{
+				"id": "22de1f78-e0de-4e5e-b73d-ab6e63656cdd",
+				"method": "GET"
+			},
+			{
+				"id": "4157a34b-106c-4132-b17e-ca266687ab58",
+				"method": "PUT"
+			},
+			{
+				"id": "6f35ca6b-b260-4a00-8eaa-3d3cb9f73e13",
+				"method": "DELETE"
+			},
+			{
+				"id": "2d16d69c-3f8e-402c-877d-97f1fabbd6f1",
+				"method": "POST"
+			},
+			{
+				"id": "9b3ad1bd-f525-4fb7-973c-e141531a1ccb",
+				"method": "PUT"
+			},
+			{
+				"id": "5c3fa967-5d32-4658-8c91-043a86bf62f6",
+				"method": "POST"
+			},
+			{
+				"id": "deefb60a-87fd-4318-a724-b167c16aad76",
+				"method": "POST"
+			},
+			{
+				"id": "5df053f4-03a3-499b-88f9-adc8a5925810",
+				"method": "POST"
+			},
+			{
+				"id": "fa3c0b71-313d-449e-870d-651f5e4cbc9e",
+				"method": "POST"
+			},
+			{
+				"id": "a8799368-68db-4a08-99c6-551a9a48733c",
+				"method": "GET"
+			},
+			{
+				"id": "e18f68f1-c3f3-4781-a7a9-c338c05106fe",
+				"method": "PUT"
+			},
+			{
+				"id": "87536534-a476-4328-858f-c5f2c55e9c10",
+				"method": "DELETE"
+			},
+			{
+				"id": "65cd846e-de31-4090-9bec-7d4cf1cb4a4b",
+				"method": "POST"
+			},
+			{
+				"id": "7a8fe29d-1a9e-4291-b5a1-9fa639b2eb2d",
+				"method": "POST"
+			},
+			{
+				"id": "a10bac77-d388-4f10-8131-cf443ff46e93",
+				"method": "GET"
+			},
+			{
+				"id": "af9ffce1-2e20-4db4-8523-5b69fcdfbdae",
+				"method": "PUT"
+			},
+			{
+				"id": "78f378ea-000d-4624-9b9e-ed982c7863de",
+				"method": "DELETE"
+			},
+			{
+				"id": "014714b0-1682-446e-b62a-0f6e421d3e27",
+				"method": "GET"
+			},
+			{
+				"id": "95710efd-60a7-472e-af7b-c22633cdc0c2",
+				"method": "POST"
+			},
+			{
+				"id": "71ba7aed-78a2-4cec-a757-1b43377abcb4",
+				"method": "POST"
+			},
+			{
+				"id": "2a0f87ad-3c68-44b2-88ee-cecb24bab8f9",
+				"method": "POST"
+			},
+			{
+				"id": "b4b517ee-e34a-4853-9e09-817111a10e61",
+				"method": "POST"
+			},
+			{
+				"id": "a3dcb2f8-359d-489b-9b78-1b278077bf85",
+				"method": "POST"
+			},
+			{
+				"id": "33fe197a-f935-44e3-b24a-c8a61676933d",
+				"method": "GET"
+			},
+			{
+				"id": "8d6dac51-10e0-4bba-9a95-96985f82b557",
+				"method": "DELETE"
+			},
+			{
+				"id": "6fb7647a-6611-44f8-b0d2-3e686d4eea7a",
+				"method": "PUT"
+			},
+			{
+				"id": "c41b3d1d-1366-466a-b40e-2ecf0fb5f17a",
+				"method": "GET"
+			},
+			{
+				"id": "b0cbb96c-4498-44fa-b192-8de0ae429ba5",
+				"method": "GET"
+			},
+			{
+				"id": "1a3b4023-9d8c-42d3-b330-bbbd30656d56",
+				"method": "POST"
+			},
+			{
+				"id": "4bd88902-0d18-4b90-b692-3589306c8c82",
+				"method": "GET"
+			},
+			{
+				"id": "77115ec6-9cbc-48bb-b75f-a7fd89ae50d7",
+				"method": "PUT"
+			},
+			{
+				"id": "33b17855-2ef3-446c-9531-68ac676874a6",
+				"method": "DELETE"
+			},
+			{
+				"id": "984f27a7-3d9a-4f98-ba66-c3bcf3225713",
+				"method": "GET"
+			},
+			{
+				"id": "2cbf9d20-b27b-40fb-befc-5fd00c92457a",
+				"method": "GET"
+			},
+			{
+				"id": "b4419a8c-e5cd-41ea-b901-d814a8475d64",
+				"method": "POST"
+			},
+			{
+				"id": "36d073dc-a2af-4c0b-8367-1bb1d2f11235",
+				"method": "GET"
+			},
+			{
+				"id": "a7ce8c91-49f1-4763-bb12-1af90d1a3629",
+				"method": "POST"
+			},
+			{
+				"id": "314283de-6c3f-48a4-af9e-677a1ae65576",
+				"method": "POST"
+			},
+			{
+				"id": "6f07a6a2-60b0-4da0-abde-001bb3f7a281",
+				"method": "GET"
+			},
+			{
+				"id": "1dcdb01d-5963-4c89-b226-f50d76dece5b",
+				"method": "PUT"
+			},
+			{
+				"id": "cc948d8a-e324-460f-8133-165f1e646249",
+				"method": "DELETE"
+			},
+			{
+				"id": "ed8ec4a4-51d9-45fd-9f2a-6787bd25e72d",
+				"method": "GET"
+			},
+			{
+				"id": "9a1510c2-f2a4-4f0e-b95a-eadd5656da2c",
+				"method": "PUT"
+			},
+			{
+				"id": "6c472c6a-1a88-4298-a10f-d09b4e277c48",
+				"method": "POST"
+			},
+			{
+				"id": "0e399dc1-29f6-4272-a662-c0bb766ee77a",
+				"method": "DELETE"
+			},
+			{
+				"id": "e9e20006-20a7-4c2e-acc5-9bce394400d1",
+				"method": "POST"
+			},
+			{
+				"id": "b49f514a-0812-49a2-a40f-7d41e5c01b9e",
+				"method": "GET"
+			},
+			{
+				"id": "4986db68-11e2-488b-b935-8fe6e497477c",
+				"method": "DELETE"
+			},
+			{
+				"id": "a7b1a0c9-8745-4d5f-9bdd-9f14758727f0",
+				"method": "GET"
+			},
+			{
+				"id": "5fa5ea6a-1b96-42c4-9566-81620479b13a",
+				"method": "GET"
+			},
+			{
+				"id": "72b50408-39d8-4876-88b8-4a8217af4c68",
+				"method": "GET"
+			},
+			{
+				"id": "bf564623-25e4-4149-ac50-6e554e78aaa3",
+				"method": "POST"
+			},
+			{
+				"id": "681b49e4-5445-4e82-92c1-2f30cc96983a",
+				"method": "GET"
+			},
+			{
+				"id": "31a7abbc-13c2-4ae4-bf87-71211c8598a8",
+				"method": "PUT"
+			},
+			{
+				"id": "be6f7f93-bcae-4a79-b24b-f11fc0d02051",
+				"method": "DELETE"
+			}
+		]
+	}
+}
