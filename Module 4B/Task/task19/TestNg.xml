@@ -1,0 +1,15 @@
+
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+    <test name="demoqa Test cases" >
+        <classes>
+
+            <class name="org.selenium.task19.task17.Task17Class1" />
+
+            <class name="org.selenium.task19.task18.SauceCartTest" />
+
+        </classes>
+    </test>
+</suite>
